@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 # --- 1. SETUP ---
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 ADMIN_PASSWORD = "loyola_admin" # Change this to your preferred secret key
 client = Groq(api_key=GROQ_API_KEY )
 
@@ -178,5 +178,6 @@ with tab3:
     elif pwd != "":
 
         st.error("Incorrect Password")
+
 
 
