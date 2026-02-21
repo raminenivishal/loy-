@@ -7,7 +7,7 @@ import os
 # --- 1. SETUP ---
 GROQ_API_KEY = "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"
 ADMIN_PASSWORD = "loyola_admin" # Change this to your preferred secret key
-client = Groq(api_key=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)
+client = Groq(api_key=GROQ_API_KEY )
 
 # --- 2. THE KNOWLEDGE BASE ---
 LOYOLA_CONTEXT = """
@@ -178,4 +178,5 @@ with tab3:
     elif pwd != "":
 
         st.error("Incorrect Password")
+
 
